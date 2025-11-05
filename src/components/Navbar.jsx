@@ -33,7 +33,7 @@ const Navbar = () => {
               key={link.id}
               onClick={() => setActive(link.title)}
             >
-              <NavLink to={`/${link.id}`}>{link.title}</NavLink>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -63,7 +63,7 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <NavLink to={`/${link.id}`}>{link.title}</NavLink>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
