@@ -12,11 +12,12 @@ A personal 3D portfolio built with React and Three.js to showcase my projects an
 
 ## Quick Start
 
-1.  **Clone the repository:**
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nicolefdz07/portfolio.git
+   cd portfolio
+   ```
 
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    ```
 
 2.  **Install dependencies:**
 
