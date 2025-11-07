@@ -1,8 +1,11 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useTranslation } from "react-i18next";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative w-full h-screen mx-auto bg-[url('/herobg.png')] bg-cover bg-no-repeat bg-center">
       <div
@@ -15,11 +18,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915eff]">Nicole</span>
+            {t("hero.greeting")}<span className="text-[#915eff]">{t("hero.name")}</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop interactive and responsive <br className="sm:block " />{" "}
-            user interfaces using modern frontend technologies.
+            {t("hero.description1")}<br className="sm:block " />{" "}
+            {t("hero.description2")}
           </p>
         </div>
       </div>

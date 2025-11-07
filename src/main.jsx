@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import logo from "./assets/logo.png";
 import "./index.css";
+import i18n from "./i18n.js";
 
 // Ensure favicon uses the bundled asset (works in dev and production).
 const existingFavicon = document.querySelector("link[rel='icon']");

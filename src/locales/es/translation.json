@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "About": "Sobre mí",
+    "Work": "Proyectos",
+    "Contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy ",
+    "name": "Nicole",
+    "description1": "Desarrollo interfaces de usuario interactivas y responsivas ",
+    "description2": "utilizando tecnologías modernas de frontend."
+  },
+  "about": {
+    "subtitle": "Sobre mí",
+    "title": "Descripción general.",
+    "description": "Soy estudiante de Ingeniería en Sistemas y una apasionada desarrolladora FrontEnd con experiencia en TypeScript, JavaScript y React. Disfruto aprender nuevas tecnologías y construir interfaces modernas y fáciles de usar. Siempre busco mejorar mis habilidades y crecer como desarrolladora."
+  },
+  "services": {
+    "frontEnd": "Desarrolladora Front End"
+  },
+  "work": {
+    "subtitle": "Proyectos Personales",
+    "title": "Proyectos.",
+    "description": "Los siguientes proyectos destacan mis habilidades técnicas y creatividad a través de aplicaciones reales que he desarrollado.",
+    "projects": {
+      "spendwise": {
+        "name": "Spend Wise",
+        "description": "Aplicación web de una sola página (SPA) que permite a los usuarios gestionar presupuestos personales, registrar transacciones y visualizar tendencias financieras en tiempo real mediante sincronización de datos e gráficos interactivos."
+      },
+      "streammax": {
+        "name": "Stream Max",
+        "description": "Aplicación web de una sola página (SPA) que permite explorar, buscar y organizar películas y series utilizando la API de TMDB, con enrutamiento dinámico y lista de favoritos persistente."
+      },
+      "shophub": {
+        "name": "Shop Hub",
+        "description": "Aplicación web de una sola página (SPA) de comercio electrónico construida con React que permite a los usuarios buscar, filtrar y comprar productos con búsqueda en tiempo real y una experiencia de carrito fluida."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Ponte en contacto",
+    "title": "Contacto.",
+    "form": {
+      "name_label": "Tu nombre",
+      "name_placeholder": "¿Cuál es tu nombre?",
+      "email_label": "Tu correo",
+      "email_placeholder": "¿Cuál es tu correo electrónico?",
+      "message_label": "Tu mensaje",
+      "message_placeholder": "¿Qué quieres decir?",
+      "button_sending": "Enviando...",
+      "button_send": "Enviar"
+    }
+  }
+}

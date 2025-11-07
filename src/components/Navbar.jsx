@@ -3,7 +3,10 @@ import { NavLink } from "react-router-dom";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants/index";
 import { styles } from "../styles";
+import { useTranslation } from "react-i18next";
+import LanguageBtn from "./UI/LanguageBtn";
 const Navbar = () => {
+  const { t } = useTranslation();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
@@ -33,9 +36,10 @@ const Navbar = () => {
               key={link.id}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`}>{t(`nav.${link.title}`)}</a>
             </li>
           ))}
+          <LanguageBtn />
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -66,6 +70,7 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <LanguageBtn />
             </ul>
           </div>
         </div>

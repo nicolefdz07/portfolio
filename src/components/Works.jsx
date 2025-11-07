@@ -5,6 +5,7 @@ import { projects } from "../constants";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { useTranslation } from "react-i18next";
 
 const ProjectCard = ({
   index,
@@ -79,11 +80,13 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const { t } = useTranslation();
+  
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Personal Projects</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <p className={`${styles.sectionSubText} `}>{t("work.subtitle")}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t("work.title")}</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -91,14 +94,27 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects highlight my technical skills and creativity through real-world applications I’ve developed. Each project is briefly described with links to code repositories and live demos in it, showcasing my ability to build responsive, efficient, and visually engaging web experiences.
+          {t("work.description")}
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        {projects.map((project, index) => {
+    const { description, ...rest } = project;  
+    const translationKey = `work.projects.${project.name
+      .toLowerCase()
+      .replace(/\s/g, "")}.description`;
+    const translatedDescription = t(translationKey);
+
+    return (
+      <ProjectCard
+        key={`project-${index}`}
+        index={index}
+        {...rest}  
+        description={translatedDescription}  
+      />
+          );
+        })}
       </div>
     </>
   );

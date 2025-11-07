@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "About": "About",
+    "Work": "Projects",
+    "Contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm ",
+    "name": "Nicole",
+    "description1": " I develop interactive and responsive ",
+    "description2": " user interfaces using modern frontend technologies." 
+  },
+  "about": {
+    "subtitle": "Introduction",
+    "title": "Overview.",
+    "description": "I'm a Systems Engineering student and passionate FrontEnd developer with experience in TypeScript, JavaScript, and React. I enjoy learning new technologies and building modern, user-friendly interfaces. I'm always looking to improve my skills and grow as a developer."
+  },
+  "services": {
+    "frontEnd": "Front End Developer"
+  },
+  "work": {
+    "subtitle": "Personal Projects",
+    "title": "Projects.",
+    "description": "The following projects highlight my technical skills and creativity through real-world applications I've developed.",
+    "projects": {
+      "spendwise": {
+        "name": "Spend Wise",
+        "description": "A single-page web application (SPA) that allows users to manage personal budgets, record transactions, and visualize financial trends in real-time through data synchronization and interactive charts."
+      },
+      "streammax": {
+        "name": "Stream Max",
+        "description": "A single-page web application (SPA) that allows users to explore, search, and organize movies and series using the TMDB API, with dynamic routing and persistent favorites list."
+      },
+      "shophub": {
+        "name": "Shop Hub",
+        "description": "A single-page e-commerce web application (SPA) built with React that allows users to search, filter, and purchase products with real-time search and a smooth cart experience."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Get in touch",
+    "title": "Contact.",
+    "form": {
+      "name_label": "Your name",
+      "name_placeholder": "What is your name?",
+      "email_label": "Your email",
+      "email_placeholder": "What is your email?",
+      "message_label": "Your message",
+      "message_placeholder": "What do you want to say?",
+      "button_sending": "Sending...",
+      "button_send": "Send"
+    }
+  }
+}

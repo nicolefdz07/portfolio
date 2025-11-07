@@ -4,8 +4,10 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from "react-i18next";
 
 const ServiceCard = ({ index, title, icon }) => {
+  
   return (
     <Tilt
       className="xs:w-[250px] sm:w-[300px] md:w-[350px]"
@@ -29,19 +31,17 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 };
 const About = () => {
+  const { t } = useTranslation();
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{t("about.subtitle")}</p>
+        <h2 className={styles.sectionHeadText}>{t("about.title")}</h2>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          I'm a Systems Engineering student and a passionate FrontEnd developer
-          with experience in TypeScript, JavaScript, and React. I enjoy learning
-          new technologies and building modern, user-friendly interfaces. I'm
-          always looking to improve my skills and grow as a developer.
+          {t("about.description")}
         </motion.p>
         <div className="mt-20 flex flex-wrap  gap-10">
           {services.map((service, index) => (
