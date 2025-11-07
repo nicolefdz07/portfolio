@@ -11,8 +11,8 @@
     "description2": "utilizando tecnologías modernas de frontend."
   },
   "about": {
-    "subtitle": "Sobre mí",
-    "title": "Descripción general.",
+    "subtitle": "Introducción",
+    "title": "Sobre mí.",
     "description": "Soy estudiante de Ingeniería en Sistemas y una apasionada desarrolladora FrontEnd con experiencia en TypeScript, JavaScript y React. Disfruto aprender nuevas tecnologías y construir interfaces modernas y fáciles de usar. Siempre busco mejorar mis habilidades y crecer como desarrolladora."
   },
   "services": {

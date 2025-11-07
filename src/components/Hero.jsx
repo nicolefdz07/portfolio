@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { useTranslation } from "react-i18next";
+import SocialLinks from "./Links";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -24,6 +25,7 @@ const Hero = () => {
             {t("hero.description1")}<br className="sm:block " />{" "}
             {t("hero.description2")}
           </p>
+          <SocialLinks />
         </div>
       </div>
       <ComputersCanvas />
