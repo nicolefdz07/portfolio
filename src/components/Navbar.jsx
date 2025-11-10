@@ -67,7 +67,7 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a href={`#${link.id}`}>{t(`nav.${link.title}`)}</a>
                 </li>
               ))}
               <LanguageBtn />

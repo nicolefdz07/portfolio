@@ -2,7 +2,7 @@ import { LuLinkedin } from "react-icons/lu";
 import { IoLogoGithub } from "react-icons/io";
 const SocialLinks = () => {
   return (
-   <div className="flex items-center flex-start gap-6 mt-2 relative z-50">
+   <div className="flex items-center flex-start gap-6 mt-2 relative z-50 ">
       <a
         href='https://www.linkedin.com/in/nicole-fernandez-5896592b2'
         target="_blank"
