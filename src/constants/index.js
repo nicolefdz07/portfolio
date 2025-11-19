@@ -8,6 +8,7 @@ import {
   tailwind, 
   typescript,
   web,
+  nextjs,
   ecommerce,
   streammax,
   spendwise
@@ -67,6 +68,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: 'next js',
+    icon: nextjs,
+  }
   
 ];
 
