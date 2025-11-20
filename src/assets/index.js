@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import ecommerce from "./ecommerce.png";
 import streammax from "./streammax.png";
 import spendwise from "./spendwise.png";
+import devevents from "./devevents.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -24,6 +25,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import nextjs from "./tech/nextjs.png"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -66,5 +68,6 @@ export {
   ecommerce,
   streammax,
   spendwise,
-  nextjs
+  nextjs,
+    devevents
 };

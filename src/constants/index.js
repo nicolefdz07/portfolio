@@ -11,7 +11,8 @@ import {
   nextjs,
   ecommerce,
   streammax,
-  spendwise
+  spendwise,
+devevents
 } from "../assets";
 
 export const navLinks = [
@@ -148,6 +149,28 @@ const projects = [
     image: ecommerce,
     source_code_link: "https://github.com/nicolefdz07/my-ecommerce",
     live_link: "https://ecommerce-nicole.netlify.app/",
+  },
+  {
+    name: "Dev Events ",
+    description:
+        "A full-stack event platform for developers to discover and book tech events like hackathons, conferences, and meetups. Features dynamic event pages, smart booking system, and similar event recommendations based on tags.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devevents,
+    source_code_link: "https://github.com/nicolefdz07/dev-events-nextjs",
+    live_link: "https://dev-events-nfdz.vercel.app/",
   },
 ];
 

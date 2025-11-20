@@ -34,6 +34,10 @@
       "shophub": {
         "name": "Shop Hub",
         "description": "Aplicación web de una sola página (SPA) de comercio electrónico construida con React que permite a los usuarios buscar, filtrar y comprar productos con búsqueda en tiempo real y una experiencia de carrito fluida."
+      },
+      "devevents": {
+        "name": "Dev Events Hub",
+        "description": "Plataforma full-stack para que desarrolladores descubran y reserven eventos tecnológicos como hackathons, conferencias y meetups. Incluye páginas dinámicas de eventos, sistema de reservas inteligente y recomendaciones de eventos similares basadas en etiquetas."
       }
     }
   },
