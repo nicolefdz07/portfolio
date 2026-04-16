@@ -31,6 +31,10 @@
         "name": "Stream Max",
         "description": "Aplicación web de una sola página (SPA) que permite explorar, buscar y organizar películas y series utilizando la API de TMDB, con enrutamiento dinámico y lista de favoritos persistente."
       },
+      "curatech": {
+        "name": "curatech",
+        "description": "Sistema de medicación IoT que integra un dispensador potenciado por ESP32 con un moderno panel de control Next.js 16. Lideré el desarrollo frontend, creando una interfaz en tiempo real para la detección de módulos de hardware y programación de medicamentos, asegurando una sincronización perfecta entre el dispositivo físico y un backend FastAPI."
+      },
       "shophub": {
         "name": "Shop Hub",
         "description": "Aplicación web de una sola página (SPA) de comercio electrónico construida con React que permite a los usuarios buscar, filtrar y comprar productos con búsqueda en tiempo real y una experiencia de carrito fluida."

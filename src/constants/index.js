@@ -12,7 +12,8 @@ import {
   ecommerce,
   streammax,
   spendwise,
-devevents
+devevents,
+curatech
 } from "../assets";
 
 export const navLinks = [
@@ -78,6 +79,7 @@ const technologies = [
 
 
 const projects = [
+  
   {
     name: "Spend Wise",
     description:
@@ -127,6 +129,28 @@ const projects = [
     image: streammax,
     source_code_link: "https://github.com/nicolefdz07/stream-max",
     live_link: "https://stream-max.netlify.app/",
+  },
+  {
+    name: "Curatech",
+    description:
+      "CuraTech is an IoT medication system that integrates an ESP32-powered dispenser with a modern Next.js 16 dashboard. I led the frontend development, engineering a real-time interface for hardware module detection and medication scheduling, ensuring seamless synchronization between the physical device and a FastAPI backend.",
+    tags: [
+      {
+        name: "NextJS",
+        color: "violet-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: curatech,
+    source_code_link: "https://github.com/nicolefdz07/curatech-frontend",
+    live_link: "https://curatech-six.vercel.app/",
   },
   {
     name: "Shop Hub",

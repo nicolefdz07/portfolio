@@ -12,13 +12,13 @@ i18n.use(initReactI18next).init({
       translation: translationES,
     },
   },
-  lng: 'en', // default language
+  lng: 'en', 
    fallbackLng: 'en',
    interpolation: {
-    escapeValue: false, // react already safes from xss
+    escapeValue: false, 
   },
     react: {
-      useSuspense: false, // 👈 ESTA LÍNEA FALTABA
+      useSuspense: false, 
     },
   });
 

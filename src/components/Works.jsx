@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import Tilt from "react-parallax-tilt";
 import { github } from "../assets";
 import { projects } from "../constants";
+import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import { SectionWrapper } from "../hoc";
-import { useTranslation } from "react-i18next";
 
 const ProjectCard = ({
   index,
@@ -81,7 +81,7 @@ const ProjectCard = ({
 
 const Works = () => {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -100,19 +100,17 @@ const Works = () => {
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => {
-    const { description, ...rest } = project;  
-    const translationKey = `work.projects.${project.name
-      .toLowerCase()
-      .replace(/\s/g, "")}.description`;
-    const translatedDescription = t(translationKey);
+          const projectKey = project.name.toLowerCase().replace(/\s+/g, "");
+          const translationKey = `work.projects.${projectKey}.description`;
+          const translatedDescription = t(translationKey, project.description);
 
-    return (
-      <ProjectCard
-        key={`project-${index}`}
-        index={index}
-        {...rest}  
-        description={translatedDescription}  
-      />
+          return (
+            <ProjectCard
+              key={`project-${index}`}
+              index={index}
+              {...project}
+              description={translatedDescription}
+            />
           );
         })}
       </div>

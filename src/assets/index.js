@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import ecommerce from "./ecommerce.png";
 import streammax from "./streammax.png";
+import curatech from "./curatech.png";
 import spendwise from "./spendwise.png";
 import devevents from "./devevents.png"
 import backend from "./backend.png";
@@ -56,6 +57,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  curatech,
   typescript,
   threejs,
   meta,
