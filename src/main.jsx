@@ -1,0 +1,24 @@
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
+import logo from "./assets/logo.png";
+import "./index.css";
+import i18n from "./i18n.js";
+
+
+const existingFavicon = document.querySelector("link[rel='icon']");
+if (existingFavicon) {
+  existingFavicon.href = logo;
+} else {
+  const l = document.createElement("link");
+  l.rel = "icon";
+  l.type = "image/png";
+  l.href = logo;
+  document.head.appendChild(l);
+}
+
+createRoot(document.getElementById("root")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);

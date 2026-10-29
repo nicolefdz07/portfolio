@@ -1,0 +1,58 @@
+{
+  "nav": {
+    "About": "About",
+    "Work": "Projects",
+    "Contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm ",
+    "name": "Nicole",
+    "description1": " I build robust full-stack web applications and interactive ",
+    "description2": " user interfaces using modern frontend and backend technologies."
+  },
+  "about": {
+    "subtitle": "Introduction",
+    "title": "Overview.",
+    "description": "I'm a Systems Engineer and Full-Stack Developer with a strong foundation in modern web architectures. Utilizing TypeScript, JavaScript, React, Angular, C#, and SQL, I design and build scalable, high-performance web applications focused on clean code and robust user experiences."
+  },
+  "services": {
+    "fullStack": "Full Stack Developer"
+  },
+  "work": {
+    "subtitle": "Personal Projects",
+    "title": "Projects.",
+    "description": "The following projects highlight my technical skills and creativity through real-world applications I've developed.",
+    "projects": {
+      "spendwise": {
+        "name": "Spend Wise",
+        "description": "A single-page web application (SPA) that allows users to manage personal budgets, record transactions, and visualize financial trends in real-time through data synchronization and interactive charts."
+      },
+      "streammax": {
+        "name": "Stream Max",
+        "description": "A single-page web application (SPA) that allows users to explore, search, and organize movies and series using the TMDB API, with dynamic routing and persistent favorites list."
+      },
+      "shophub": {
+        "name": "Shop Hub",
+        "description": "A single-page e-commerce web application (SPA) built with React that allows users to search, filter, and purchase products with real-time search and a smooth cart experience."
+      },
+      "expensesapp": {
+        "name": "Expenses App",
+        "description": "A full-stack personal finance application designed to track and manage transactions in real-time. Built with an ASP.NET Core Web API backend, SQL Server database, and an Angular frontend, featuring secure JWT authentication and a clean, responsive user interface."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Get in touch",
+    "title": "Contact.",
+    "form": {
+      "name_label": "Your name",
+      "name_placeholder": "What is your name?",
+      "email_label": "Your email",
+      "email_placeholder": "What is your email?",
+      "message_label": "Your message",
+      "message_placeholder": "What do you want to say?",
+      "button_sending": "Sending...",
+      "button_send": "Send"
+    }
+  }
+}

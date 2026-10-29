@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "About": "Sobre mí",
+    "Work": "Proyectos",
+    "Contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy ",
+    "name": "Nicole",
+    "description1": "Desarrollo aplicaciones web full-stack robustas y ",
+    "description2": "creo interfaces de usuario interactivas utilizando tecnologías modernas."
+  },
+  "about": {
+    "subtitle": "Introducción",
+    "title": "Sobre mí.",
+    "description": "Soy Ingeniera de Sistemas y Desarrolladora Full-Stack con una sólida base en arquitecturas web modernas. Utilizando TypeScript, JavaScript, React, Angular, C# y SQL, diseño y desarrollo aplicaciones web escalables y de alto rendimiento, enfocadas en un código limpio y experiencias de usuario sólidas."
+  },
+  "services": {
+    "fullStack": "Desarrolladora Full-Stack"
+  },
+  "work": {
+    "subtitle": "Proyectos Personales",
+    "title": "Proyectos.",
+    "description": "Los siguientes proyectos destacan mis habilidades técnicas y creatividad a través de aplicaciones reales que he desarrollado.",
+    "projects": {
+      "spendwise": {
+        "name": "Spend Wise",
+        "description": "Aplicación web de una sola página (SPA) que permite a los usuarios gestionar presupuestos personales, registrar transacciones y visualizar tendencias financieras en tiempo real mediante sincronización de datos e gráficos interactivos."
+      },
+      "streammax": {
+        "name": "Stream Max",
+        "description": "Aplicación web de una sola página (SPA) que permite explorar, buscar y organizar películas y series utilizando la API de TMDB, con enrutamiento dinámico y lista de favoritos persistente."
+      },
+      "curatech": {
+        "name": "curatech",
+        "description": "Sistema de medicación IoT que integra un dispensador potenciado por ESP32 con un moderno panel de control Next.js 16. Lideré el desarrollo frontend, creando una interfaz en tiempo real para la detección de módulos de hardware y programación de medicamentos, asegurando una sincronización perfecta entre el dispositivo físico y un backend FastAPI."
+      },
+      "shophub": {
+        "name": "Shop Hub",
+        "description": "Aplicación web de una sola página (SPA) de comercio electrónico construida con React que permite a los usuarios buscar, filtrar y comprar productos con búsqueda en tiempo real y una experiencia de carrito fluida."
+      },
+      "expenseapp": {
+        "name": "Expenses App",
+        "description": "Aplicación web full-stack de finanzas personales diseñada para registrar y gestionar transacciones en tiempo real. Desarrollada con un backend en ASP.NET Core Web API, base de datos SQL Server y un frontend en Angular, cuenta con autenticación segura por JWT y una interfaz limpia y responsiva."
+      }
+    }
+  },
+  "contact": {
+    "subtitle": "Ponte en contacto",
+    "title": "Contacto.",
+    "form": {
+      "name_label": "Tu nombre",
+      "name_placeholder": "¿Cuál es tu nombre?",
+      "email_label": "Tu correo",
+      "email_placeholder": "¿Cuál es tu correo electrónico?",
+      "message_label": "Tu mensaje",
+      "message_placeholder": "¿Qué quieres decir?",
+      "button_sending": "Enviando...",
+      "button_send": "Enviar"
+    }
+  }
+}
